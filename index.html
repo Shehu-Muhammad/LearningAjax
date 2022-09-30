@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Ajax</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <!-- https://phppot.com/jquery/jquery-ajax-autocomplete-country-example/#:~:text=jQuery%20Autocomplete%20function%20is%20called,keyword%20entered%20by%20the%20user. -->
     <!-- <button>Click me to get data!</button> -->
-    <input type="text" name="name">
-    <p id="test"></p>
+    <!-- <label for="">Type a name</label> -->
+    <!-- <input type="text" name="name">
+    <option id="test"></option> -->
+    <h1>jQuery AJAX Autocomplete - Country Example</h1>
+    <div class="frmSearch">
+        <input type="text" id="search-box" placeholder="Country Name" />
+        <div id="suggesstion-box"></div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
